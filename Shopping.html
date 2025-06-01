@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping</title>
+  <link rel="stylesheet" href="styles/gefühlstyles.css" >
+  <link rel="stylesheet" href="styles/shopping.css">
+</head>
+<body class="g-body">
+  <div class="container1">
+  <header class="top">
+    <div class="headline">Shopping</div>
+    
+      <img class="logopic" src="img/Unbenannt.png" alt="Gefühlsradar Logo">
+    </a>
+    
+
+  </header>
+ 
+ <nav class="buttonrow">
+ <a href="OnlineTool.html">Gefühlsradar</a>
+    <a href="Überuns.html" class="u-button">Über Uns</a>
+    <a href="Idee.html">Idee</a>
+    <a href="Shopping.html">Shopping</a>  
+    <a href="Fragebogen.html">Fragen</a>
+  </nav> 
+  <div class="gr-content">
+     
+  <main class="shopping-side">
+    <div class="shopping-container">
+      <form class="message-form" action="Error.html" method="post"> 
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+    <label for="message">Nachricht</label>
+    <textarea name="message" id="message" rows="4" required></textarea>
+    <button type="submit">Senden</button>
+  </form>
+    <section class="products">
+      <article class="product">
+        <h2>Gefühlsradar</h2>
+        <p>Preis: 10 Euro <br> inkl Mwst</p>
+        <button class="sh-button" onclick="addToCart('Gefühlsradar', 10)">in den Warenkorb</button>
+      <!--  <button class="sh-button" onclick="addToCart('Gefühlsradar', 10)">in den Warenkorb</button>*/ -->
+      </article>
+      <article class="product">
+        <h2>Schmerzradar</h2>
+        <p>Preis: 11 Euro <br> inkl Mwst</p>
+        <button class="sh-button" onclick="addToCart('Schmerzradar', 11)">in den Warenkorb</button> 
+       <!-- <button class="sh-button" onclick="addToCart('Schmerzradar', 11)">in den Warenkorb</button>-->
+      </article>
+      
+      <article class="product">
+        <h2>Angstradar</h2>
+        <p>Preis: 12 Euro <br> inkl Mwst</p>
+        <button class="sh-button" onclick="addToCart('Angstradar', 12)">in den Warenkorb</button>
+      <!--  <button class="sh-button" onclick="addToCart('Angstradar', 12)">in den Warenkorb</button> -->
+      </article>
+      
+    </section>
+   <section class="cart-section">
+      <h1>Warenkorb</h1>
+      <ul id="cart"></ul>
+      <button class="del-button" onclick="deleteCart()">Warenkorb leeren</button>
+      <p id="total">Gesamtpreis: 0€</p>
+      
+    </section>
+    </div>
+
+    
+    
+    
+    
+  </main>
+</div>
+  <div class="uLeiste">
+    <div class="uTextBox">
+      <p class="utext">
+        Gefühlsradar GmbH &amp; Co KG &middot; <br> Ein Unternehmen fürs Beleben
+      </p>
+    </div>
+    <div class="uimgbox">
+      <img class="uimg" src="img/site icon.png" alt="Site Icon">
+    </div>
+</div>
+</div>
+  <script src="js/gr.js" ></script>
+</body>
+</html>

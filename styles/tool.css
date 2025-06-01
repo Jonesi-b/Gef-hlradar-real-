@@ -1,0 +1,42 @@
+
+.s-headline{
+    font-size: 40px;
+    padding-left: 140px;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+    background: linear-gradient(to right, green,lime, yellow,orange, red);
+    height: 20px;
+    width: 500px;
+    border-radius: 10px;
+    border:1px solid red;
+    cursor: pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: red; 
+    border-radius: 50%;
+    color: red;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+} 
+input[type="range"]{
+    width: 500px
+}
+#text{
+    font-size: 35px;
+    border: 1px solid rgb(184, 184, 11);
+    background-color: lightgoldenrodyellow;
+    margin-left: 90px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 20px; 
+    width: 300px;
+    text-align: center;
+    margin-top: 70px;
+    justify-content: center;
+}
