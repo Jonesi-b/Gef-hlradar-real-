@@ -1,0 +1,61 @@
+.mpchoice{
+    font-size: 20px;
+    left: 30px;
+    margin-top: 250px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 600px;
+    border-radius: 30px;
+
+}
+.lil-buttons{
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+padding-bottom: 10px;
+   
+}
+.w-Frage{
+    font-size: 40px;
+    display: block;
+    padding-bottom: 10px;
+}
+.choice{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.submit-button{
+  margin-left: 260px;
+  background:linear-gradient(45deg, green, lime);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+  z-index: 10;
+  
+}
+
+
+.submit-button:hover,
+.submit-button:focus {
+  background: linear-gradient(45deg, #0072ff, #00c6ff);
+  transform: translateY(-3px);
+}
+
+
+.submit-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}

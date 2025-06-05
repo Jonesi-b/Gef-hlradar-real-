@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Shopping</title>
-  <link rel="stylesheet" href="styles/gefühlstyles.css" >
-  <link rel="stylesheet" href="styles/shopping.css">
+  <link rel="stylesheet" href="css/gefühlstyles.css" >
+  <link rel="stylesheet" href="css/shopping.css">
 </head>
 <body class="g-body">
   <div class="container1">
@@ -18,16 +18,18 @@
   </header>
  
  <nav class="buttonrow">
- <a href="OnlineTool.html">Gefühlsradar</a>
-    <a href="Überuns.html" class="u-button">Über Uns</a>
-    <a href="Idee.html">Idee</a>
-    <a href="Shopping.html">Shopping</a>  
-    <a href="Fragebogen.html">Fragen</a>
+  <a href="OnlineTool.html">Gefühlsradar</a>
+    <a href="Überuns.html" >Über Uns</a>
+    <a href="Idee.html">Idee</a>  
+    <a href="Fragen.html">Fragen</a>
+    <a href="Shopping.html">Shop/Kontakt</a>
   </nav> 
+  
   <div class="gr-content">
      
   <main class="shopping-side">
     <div class="shopping-container">
+      <div class="textandads">
       <form class="message-form" action="Error.html" method="post"> 
     <label for="name">Name</label>
     <input type="text" id="name" name="name">
@@ -35,15 +37,31 @@
     <textarea name="message" id="message" rows="4" required></textarea>
     <button type="submit">Senden</button>
   </form>
+  <div class="werbung3">
+      <p class="w-text3">
+        Herzlichen Glückwunsch <br>
+        Sie sind der 14. Besucher dieser Seite!!!
+        <p>
+        <div class="winner">
+        <img class="winnerimg" id src="img/Glücksis.png" >
+        </div>
+      <p class="w-text3a">Drücken sie für ihren Gewinn auf das blinkende Bild. </p>
+    </div>
+    </div>
+  <div class="productWarenkorb">
     <section class="products">
       <article class="product">
-        <h2>Gefühlsradar</h2>
+        <h1>Gefühlsradar</h1>
+       <div class="imgskalabox"> <img class="imgskala" src="img/Skala.png" alt="">
+        </div>
         <p>Preis: 10 Euro <br> inkl Mwst</p>
         <button class="sh-button" onclick="addToCart('Gefühlsradar', 10)">in den Warenkorb</button>
       <!--  <button class="sh-button" onclick="addToCart('Gefühlsradar', 10)">in den Warenkorb</button>*/ -->
       </article>
       <article class="product">
         <h2>Schmerzradar</h2>
+        <div class="imgskalabox"> <img class="imgskala" src="img/Skala.png" alt="">
+        </div>
         <p>Preis: 11 Euro <br> inkl Mwst</p>
         <button class="sh-button" onclick="addToCart('Schmerzradar', 11)">in den Warenkorb</button> 
        <!-- <button class="sh-button" onclick="addToCart('Schmerzradar', 11)">in den Warenkorb</button>-->
@@ -51,6 +69,8 @@
       
       <article class="product">
         <h2>Angstradar</h2>
+        <div class="imgskalabox"> <img class="imgskala" src="img/Skala.png" alt="">
+        </div>
         <p>Preis: 12 Euro <br> inkl Mwst</p>
         <button class="sh-button" onclick="addToCart('Angstradar', 12)">in den Warenkorb</button>
       <!--  <button class="sh-button" onclick="addToCart('Angstradar', 12)">in den Warenkorb</button> -->
@@ -64,6 +84,7 @@
       <p id="total">Gesamtpreis: 0€</p>
       
     </section>
+    </div>
     </div>
 
     

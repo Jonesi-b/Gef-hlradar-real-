@@ -46,5 +46,22 @@ function updateCart(){
             ];
             text.textContent = emojis[sliderValue] + paragraphs[sliderValue];
         }
+function closeAdd(){
+    document.querySelector(".werbung").style.display = "none";
+}
+function closeAdd2(){
+    document.querySelector(".werbung2").style.display = "none";
+}
+ window.addEventListener("DOMContentLoaded", function() {
+      // Wait 5 seconds (5000ms)
+      setTimeout(function() {
+        document.querySelector(".werbung").style.display = "block";
+      }, 5000);
+      setTimeout(function(){
+        document.querySelector(".werbung2").style.display = "block";
+      },3000)
+    })
 
-    
+    document.querySelector(".winnerimg").addEventListener("click", function() {
+    document.querySelector(".winnerimg").src="img/Du Gewin.png";
+    });

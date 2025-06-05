@@ -1,0 +1,64 @@
+.Frage-button{
+    position: relative;
+    width: 100%;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.Stress-button{
+    background: linear-gradient(45deg, #e859007a, #e00808);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+.Stress-button:hover{
+  background: linear-gradient(45deg,#e00808, #e859007a);
+}
+.Angst-button{
+       background: linear-gradient(45deg, #220479, #3a363d);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+  z-index: 5;
+}
+.Angst-button:hover{
+  background: linear-gradient(45deg,#3a363d,  #220479);
+}
+
+.Schmerz-button{
+  background: linear-gradient(45deg, #60033c, #cf0d0dcb);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  position: relative;
+  z-index: 5;
+}
+.Schmerz-button:hover{
+  background: linear-gradient(45deg,#cf0d0dcb, #60033c );
+}

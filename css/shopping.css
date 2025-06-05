@@ -1,0 +1,216 @@
+.shopping-container{
+    display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;    
+  gap: 200px;                  
+  width: 100%;               
+  margin: 0 auto;         
+  padding-top: 20px;  
+}
+.textandads{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.productWarenkorb{
+    display: flex;
+    flex-direction: row;
+    gap: 30px; 
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.product {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-between; 
+  border: 1px solid rgb(14, 9, 9);
+  padding: 10px;
+  height: auto;
+  width: 150px;
+  text-align: center;
+  background: linear-gradient(to right, rgb(248, 116, 101),  rgb(218, 218, 117), rgb(127, 238, 127));
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+}
+.sh-button{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+
+}
+.cart-section{
+    height: fit-content;
+max-width: 400px;            
+  padding: 15px;
+  background: linear-gradient(to left, rgb(248, 116, 101),  rgb(218, 218, 117), rgb(127, 238, 127)); 
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  overflow: auto;
+}
+.imgskalabox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    overflow: hidden;
+}
+.imgskala {
+    width: 100%;
+    height: auto;
+    transform: rotate(90deg);
+}
+
+#cart{padding-left: 10px;
+text-align: left;
+}
+#cart li{
+    list-style: none;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 10px;
+}
+
+.del-button{
+    background: crimson;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    margin: 15px auto;
+    position: relative;
+    z-index: 10;
+}
+#total{
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+ .sh-button, .del-button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.shopping-side{
+  
+    flex: 2;
+    margin-left: 20px;
+}
+
+.message-form {
+    flex: 1;
+    width: 500px;
+    height: 400px;
+    padding: 15px;
+    background:linear-gradient(to top,  rgb(248, 116, 101),  rgb(218, 218, 117), rgb(127, 238, 127));
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.message-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.message-form input{
+    width: 80%;
+
+}
+.message-form input, 
+.message-form textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.message-form textarea{
+    height: 230px;
+}
+.message-form button {
+    margin-top: 10px;
+    background-color: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.message-form button:hover {
+    background-color: #005bb5;
+}
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.message-form {
+    flex: 1;
+}
+
+.cart-content {
+    flex: 2;
+}
+.shopping-container:hover{
+    z-index: 1;
+}
+.werbung3{
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    animation: blinkl 2s infinite;
+    border-radius: 20px;
+}
+@keyframes blinkl {
+    0%{
+        background-color: rgb(3, 5, 3);
+    }
+    25%{
+        background-color: purple;
+    }
+    50%{
+        background-color: red;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: yellow;
+    }   
+}
+.winner{
+margin-left: 75px;
+height: 275px ;
+width: 70%;
+}
+.winnerimg{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.w-text3 ,.w-text3a{
+    font-size: 20px;
+    color: white;
+    font: 100;
+    
+}
+.w-text3a{
+  padding-bottom: 3px;
+}

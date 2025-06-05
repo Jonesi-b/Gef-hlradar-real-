@@ -1,9 +1,9 @@
 <!DOCTYPE html> 
 <html>
 <head>
-<title>Idee</title>
-<link rel="stylesheet" href="styles/gefühlstyles.css">
-<link rel="stylesheet" href="styles/fragebogen.css">
+<title>Fragen</title>
+<link rel="stylesheet" href="css/gefühlstyles.css">
+<link rel="stylesheet" href="css/fragebogen.css">
 </head>
 
 
@@ -11,31 +11,46 @@
 <body class="i-body">
     <div class="container">
     <div class="top">
-    <div class="headline">Idee</div>
+    <div class="headline">Stressskala</div>
            <img class="logopic"  src="img/Unbenannt.png" alt=""></a>
     </div>
      <div class="buttonrow">
-    <a href="OnlineTool.html">Gefühlsradar</a>
-    <a href="Überuns.html" class="u-button">Über Uns</a>
-    <a href="Idee.html">Idee</a>
-    <a href="Shopping.html">Shopping</a>  
-    <a href="Fragebogen.html">Fragen</a>
+     <a href="OnlineTool.html">Gefühlsradar</a>
+    <a href="Überuns.html" >Über Uns</a>
+    <a href="Idee.html">Idee</a>  
+    <a href="Fragen.html">Fragen</a>
+    <a href="Shopping.html">Shop/Kontakt</a>
     </div>
-    <div class="gr-content">
-    <div>
-    <div class="Frage-antwort">
-      <p class="w-Frage"></p>
+    
+    <div class="mpchoice">
+      <p class="w-Frage"> Wie gestresst Fühlst du dich?</p>
       <div class="lil-buttons">
-      <button></button><p></p>
-      <button></button><p></p>
-      <button></button><p></p>
-      <button></button><p></p>
-      <button></button><p></p>
+        <div class="choice">
+      <input type="radio"name="mpoption" id="option1" value="1" onclick="saveChoice(this.value)">
+      <label for="answer1">Überhaupt nicht</label>
+      </div>
+      <div class="choice">
+      <input type="radio"  name="mpoption" id="option2" value="2" onclick="saveChoice(this.value)">
+      <label for="answer2">Sehr wenig</label>
+      </div>
+      <div class="choice">
+      <input type="radio"  name="mpoption" id="option3" value="3" onclick="saveChoice(this.value)">
+      <label for="answer3">Spürbar</label>
+      </div>
+      <div class="choice">
+      <input type="radio"  name="mpoption" id="option4" value="4" onclick="saveChoice(this.value)">
+      <label for="answer4">Stark</label>
+      </div>
+      <div class="choice">
+      <input type="radio"  name="mpoption" id="option5" value="5" onclick="saveChoice(this.value)">
+      <label for="answer5">Nicht auszuhalten</label>
       </div>
     </div>
+    <a class="submit-button" href="Fragenbogen2.html">submit</a>
     </div>
-    </div>
-     <div class="uLeiste">
+    
+  
+  <!--   <div class="uLeiste">
         <div class="uTextBox"><p class="utext">
           Gefühlsradar Gmbh & Co KG <br> Ein Unternehmen fürs Beleben
         </p>
@@ -43,8 +58,9 @@
         <div class="uimgbox"><img class="uimg" src="img/site icon.png" alt="">
         </div>
      </div>
-        
+      -->  
        </div> 
    
 </body>
+<script src="js/fb.js"></script>
 </html>

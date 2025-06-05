@@ -1,0 +1,309 @@
+    html{
+        margin: 0px;
+        width: 100%;
+
+    }
+    body{
+        background: linear-gradient(to top, rgb(127, 238, 127), rgb(218, 218, 117), rgb(248, 116, 101));
+        background-attachment: fixed; 
+        margin:0px;
+        height: 100vh;
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+ 
+    .a1{
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 0) ;
+           }
+
+a {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 50px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  
+}
+
+/* Hover state */
+a:hover,
+a:focus {
+  background: linear-gradient(45deg, #0072ff, #00c6ff);
+  transform: translateY(-3px);
+}
+
+/* Active state */
+a:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+    .a1:active{
+        opacity: 0.5;
+    }
+    .a1:hover{
+        background-color: #2d302d;
+    }
+   
+
+    
+    
+   
+    
+    .itcontainer{
+        display: flex;
+        height: 300px;
+        margin: 50px;
+    }
+  /* .textbar, .ibar{
+        flex: 1;
+    } */
+     .ue-textfeld{
+    margin-top:10px;
+    margin-bottom: 10px ;
+    /*margin-left: 200px;*/
+    height: fit-content;
+    width: 900px;
+    background-color: lemonchiffon;
+    border:1px solid red;
+    border-radius: 12%;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    font-size: 23px;
+    text-align: center;
+    
+
+}
+
+
+.ue-text{
+    
+    line-height: 35px;
+    font-weight: lighter;
+    font-style: italic
+
+}
+ 
+.uTextBox{
+        margin-left: 20px;
+        margin-top: 10px ;
+        width: 400px;
+        font-size: 20px;
+        font-weight: lighter;
+        font-style: italic;
+        
+}
+    
+.utext{
+    display: inline-block
+}
+.uimgbox{
+        display: inline-block;
+        width: 200px;
+        margin-left: 30px;
+        height: 150px;
+        padding-top: 35px;
+}
+    
+    .uimg{
+       width: 100%;
+        
+}
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+     
+}
+
+.top {
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    margin-bottom:0px;
+   
+   
+}
+
+
+.headline {
+    text-align: center;
+    font-size: clamp(30px, 5vw, 50px);
+    -webkit-text-stroke: 0.5px gold;
+    font-weight: lighter;
+    color:white;
+    margin-top: 75px;
+    margin-left:auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.logopic {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 150px;
+    height: auto;
+}
+
+
+.buttonrow { 
+    position: relative;
+    width: 100%;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+
+.uLeiste {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-top: 4px solid black;
+    background-color: rgba(227, 126, 193, 0.8);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: 5s;
+    border-radius:15px ;
+}
+.uLeiste:hover{
+    opacity: 1;
+    z-index: 10;
+}
+
+#text {
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+
+
+.gr-content{
+    margin-top: 200px;
+    height: fit-content;
+    width: fit-content;
+}
+.werbung{
+    display: none;
+    animation: blinkBg 1s infinite;
+    height: 400px;
+    width: 400px;
+    top: 100px;
+    z-index: 30;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: fixed;
+    
+}
+.werbung2{ 
+    display: none;
+    height:fit-content;
+    width: 200px;
+    animation: blinkk 2s infinite;
+    top: 230px;
+    right: 0px;
+    bottom: 10px;
+    z-index: 30;
+    padding: 5px;
+    border-radius: 30px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: fixed;
+    background-color: white;
+    text-align: center;
+    }
+.w-text2{
+    font-size: 15px;
+    font-weight:900 ;
+    font-style: italic;
+}
+.w-text2a{
+    font-size: 14px;
+    font-style:italic;
+    font-weight: bold;
+}
+.kochimgbox{
+    width: 100%;
+}
+.koching{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+@keyframes blinkk {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: lawngreen;
+    }
+    100%{
+        background-color: white;
+    }
+}
+@keyframes blinkBg {
+      0% {
+        background-color: #fb0000; /* Red-ish */
+      }
+      50% {
+        background-color: #ffffff; /* Yellow-ish */
+      }
+      100% {
+        background-color: #ff0000; /* Red-ish again */
+      }
+    }
+.closebutton{
+    padding: 10px;
+    animation: buttonblink 1s infinite;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.closebuttona{
+    background-color: white;
+    box-shadow: 1px solid rgb(black);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 175px;
+}
+@keyframes buttonblink{
+    0% {
+        background-color:  #ffffff; 
+      }
+      50% {
+        background-color: #ff0000; 
+      }
+      100% {
+       background-color: #ffffff; 
+      }
+}
+.w-text{
+    font-size: 40px;
+    padding-left: 10px;
+}

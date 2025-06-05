@@ -1,0 +1,19 @@
+.ergebnis{
+    margin-top: 200px;
+    height: fit-content;
+    width: fit-content;
+    color: rgb(126, 27, 112);
+}
+.resheadline{
+    text-align: center;
+    text-decoration-thickness: 1px;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.resmessages{
+    text-decoration: none;
+    color: black(223, 241, 81);
+    -webkit-text-stroke: 0.1px white;
+    font-size: 24px;
+    
+}
